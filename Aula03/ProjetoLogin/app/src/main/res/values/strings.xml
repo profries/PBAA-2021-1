@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjetoLogin</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="botaoLogin">Login</string>
+    <string name="msg_ok_login">Login is successful!</string>
+    <string name="msg_error_login">Invalid Username or Password!</string>
+</resources>
