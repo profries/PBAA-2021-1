@@ -42,6 +42,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         dialog.setPositiveButton("OK", DialogInterface.OnClickListener {
             dialog, id ->
                 Toast.makeText(this, "Pagamento realizado com sucesso!", Toast.LENGTH_SHORT).show()
+                checkAgua.setChecked(false)
+                checkLuz.setChecked(false)
+                checkTelefone.setChecked(false)
+                checkCelular.setChecked(false)
         })
         dialog.setNegativeButton("Cancelar", DialogInterface.OnClickListener {
                 dialog, id ->
