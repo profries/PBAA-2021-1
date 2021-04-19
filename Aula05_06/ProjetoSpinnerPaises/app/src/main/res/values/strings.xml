@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProjetoSpinnerPaises</string>
+    <string-array name="lista_paises">
+        <item>Selecione o país</item>
+        <item>Alemanha</item>
+        <item>Belgica</item>
+        <item>Croacia</item>
+        <item>Dinamarca</item>
+        <item>Espanha</item>
+        <item>França</item>
+    </string-array>
+</resources>

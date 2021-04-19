@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         var botaoPagar = findViewById<Button>(R.id.botaoPagar)
         botaoPagar.setOnClickListener(this)
+
     }
 
     override fun onClick(v: View?) {
@@ -48,8 +49,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 checkCelular.setChecked(false)
         })
         dialog.setNegativeButton("Cancelar", DialogInterface.OnClickListener {
-                dialog, id ->
-            Toast.makeText(this, "Pagamento cancelado!", Toast.LENGTH_SHORT).show()
+            dialog, id ->
+                Toast.makeText(this, "Pagamento cancelado!", Toast.LENGTH_SHORT).show()
         })
         dialog.show()
     }
