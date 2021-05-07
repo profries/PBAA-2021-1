@@ -26,7 +26,7 @@ class ProdutoAdapter (var listaProdutos: ArrayList<Produto>): RecyclerView.Adapt
             .inflate(R.layout.item_produto, parent, false)
         return MyViewHolder(view)
     }
-    
+
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.textViewNome.text = listaProdutos.get(position).nome
         holder.textViewPreco.text = listaProdutos.get(position).preco.toString()
